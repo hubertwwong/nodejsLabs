@@ -1,0 +1,25 @@
+{
+  "name": "react01",
+  "version": "1.0.0",
+  "description": "react test",
+  "main": "index.js",
+  "author": "Hubert Wong",
+  "license": "ISC",
+	"scripts": {
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p",
+		"test": "jest"
+  },
+  "dependencies": {
+		"babel-core": "*",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+		"react-addons-test-utils": "*",
+    "react-dom": "^15.3.2",
+		"react-test-renderer": "*",
+    "webpack": "^1.13.2",
+		"jest": "*",
+		"babel-jest": "*"
+  }
+}
